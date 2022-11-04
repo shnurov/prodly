@@ -81,6 +81,7 @@ public class MainPage {
 
     public void logOut(String phone, String pass) throws InterruptedException{
 
+        // need wait
         Thread.sleep(2000);
         logRegButton.click();
         Thread.sleep(1000);
